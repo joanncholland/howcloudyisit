@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background-color: #a0ced9;
+  color: white;
+}
+
+.jumbotron {
+  background-color: #a0ced9;
+}
+
+.cta {
+  color: #2C393C;
+}
+
+.info {
+  background-color: white;
+  height: 60vh;
+  color: #2c393c;
+}
+
+.info img {
+  padding: 50px;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        25%;
+    left:       0;
+    height:     60vh;
+    width:      100%;
+    background: rgba( 255, 255, 255, 1 )
+                url('http://i.stack.imgur.com/FhHRx.gif')
+                50% 50%
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+#satellite {
+  display: none;
+}
+
+#satellite .loaded {
+  display: block;
+}
+
+#credits {
+  margin-top: 50px;
+}
