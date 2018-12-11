@@ -1,6 +1,6 @@
 # How Cloudy Is It?
 
-Makes use of the NASA API to get a satellite image of cloud score based on your current location.
+Makes use of the NASA API to get a satellite image of cloud score based on your current location. (Of course you couuld just look outside, but just in case!)
 
 ![Home Page](screenshots/howcloudyisit.png) 
 
